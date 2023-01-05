@@ -165,5 +165,67 @@ section{
 }
 .resume{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 8.re0px;
+}
+
+/* Resume Styles */
+.resume{
+    margin-bottom: 80px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 100px;
+
+}
+.resume ,.description{
+    color: #757575;
+    margin-top: 15px;
+
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.section-description{
+    margin-bottom: 20px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding-left: 18px 30px;
+    
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
 }
